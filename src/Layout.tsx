@@ -26,7 +26,7 @@ const Layout: React.FC = () => {
                 <Route path="/contact" Component={Contact as React.ComponentType} />
                 <Route path="/calendar" Component={Calendar as React.ComponentType} />
                 <Route path="/robots" Component={Robots as React.ComponentType} />
-                <Route path="*" element={<div className="center" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color:"green"}}>Well, your forceful browsing seems to have failed. Nice try though, I can't blame you. <br /> 404 Not Found</div>} />
+                <Route path="*" element={<div className="center" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color:"green"}}>404 Not Found</div>} />
             </Routes>
             <Footer />
         </div>
