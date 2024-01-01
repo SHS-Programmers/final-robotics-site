@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.svg {
+    display: block;
+    font: 10.5em Jockey One;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 3px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 8s infinite linear;
+}
+
+.text-copy.color3 {
+    stroke: #1c421c;
+}
+
+.text-copy.color4 {
+    stroke: #008500;
+}
+
+.text-copy.color5 {
+    stroke: #576857;
+}
+
+.text-copy.color6 {
+    stroke: #000000;
+}
+
+.text-copy.color7 {
+    stroke: #2a3b2a;
+}
+
+.text-copy.color8 {
+    stroke: #161616;
+}
+
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
+.llorar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
