@@ -11,7 +11,7 @@ import Contact from './Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Robots from './Robots/Robots';
 import Calendar from './Calendar/Calendar';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const Layout: React.FC = () => {
     return (
