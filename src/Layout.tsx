@@ -11,7 +11,8 @@ import Contact from './Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Robots from './Robots/Robots';
 import Calendar from './Calendar/Calendar';
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 const Layout: React.FC = () => {
     return (
@@ -29,6 +30,7 @@ const Layout: React.FC = () => {
                 <Route path="/robots" Component={Robots as React.ComponentType} />
                 <Route path="*" element={<div className="center" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color:"green"}}>404 Not Found</div>} />
             </Routes>
+            <Analytics />
             <SpeedInsights />
             <Footer />
         </div>
