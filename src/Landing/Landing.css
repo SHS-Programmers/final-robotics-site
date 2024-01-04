@@ -14,13 +14,17 @@
     overflow: hidden;
 }
 .parallax {
-    background-image: url("./DrewHome.png");
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50% 100%;
+    background-size: 100% 100%;
     z-index: 1;
+}
+@media only screen and (min-width: 700px) {
+    .parallax {
+        background-image: url("./countdown.jpeg");
+    }
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {

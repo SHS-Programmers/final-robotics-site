@@ -14,6 +14,9 @@
         font-size: x-small;
     }
 }
+body {
+    background-color: #545454 !important;
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
