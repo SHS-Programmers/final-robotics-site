@@ -17,6 +17,7 @@ import { Analytics } from "@vercel/analytics/react";
 const Layout: React.FC = () => {
     return (
         <div>
+            <Analytics />
             <Navbar />
             <Routes>
                 <Route path="/" Component={Landing as React.ComponentType} />
@@ -30,7 +31,6 @@ const Layout: React.FC = () => {
                 <Route path="/robots" Component={Robots as React.ComponentType} />
                 <Route path="*" element={<div className="center" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color:"green"}}>404 Not Found</div>} />
             </Routes>
-            <Analytics />
             <SpeedInsights />
             <Footer />
         </div>
