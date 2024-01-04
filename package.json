@@ -26,10 +26,12 @@
     "react-router-dom": "^6.19.0",
     "react-scripts": "^5.0.1",
     "three": "^0.158.0",
-    "three-gltf-loader": "^1.111.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
     "webpack": "^5.89.0"
+  },
+  "overrides": {
+    "react-refresh": "0.14.0"
   },
   "scripts": {
     "start": "react-scripts start",
