@@ -14,6 +14,7 @@ a {
     border: 1px solid #ffffff22;
     color: #ffffff;
     padding: 5px;
+    height: 100%;
 }
 
 .glow::after {
@@ -67,7 +68,7 @@ a {
 }
 
 /*.bg {*/
-/*    background-color: #161616;*/
+    /*background-color: #161616;*/
 /*}*/
 
 .full {
@@ -87,4 +88,13 @@ a {
 
 .headingText {
     font-family: 'Jockey One', sans-serif;
+}
+.fixIframe {
+
+}
+@media only screen and (max-width: 768px) {
+    .fixIframe {
+        width: 200px;
+        height: 150px;
+    }
 }

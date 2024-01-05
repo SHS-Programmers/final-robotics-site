@@ -91,36 +91,48 @@ li a.active:hover::after {
     /*border-style: solid;*/
     /*border-color: #404850;*/
 }
-label:before {
-    height:2px;
-    width:20px;
-    background:white;
-    display:inline-block;
-    content:"";
-    box-shadow:0px -5px 0px 0px  white,
-    0px -10px 0px 0px white;
-    margin-right:10px;
-    transition:all .5s;
-    position:relative;
-    opacity:0.5;
+@media only screen and (min-width: 768px) {
+    label {
+        display: none;
+    }
+
+    input[type="checkbox"] {
+        visibility: hidden;
+        position: absolute;
+    }
 }
-label {
-    display: inline-block;
-    background: rgb(51, 51, 51);
-    border-radius: 10px;
-    padding:10px;
-    color:white;
-    cursor:pointer;
-}
-input[type="checkbox"] {
-    visibility:hidden;
-    position:absolute;
-}
-#collapse:checked ~ li {
-    display:none;
-    margin-top:0;
-}
-#collapse:checked + label:before {
-    position: relative;
-    opacity:1;
+@media only screen and (max-width: 767px) {
+    label:before {
+        height:2px;
+        width:20px;
+        background:white;
+        display:inline-block;
+        content:"";
+        box-shadow:0 -5px 0 0 white,
+        0 -10px 0 0 white;
+        margin-right:10px;
+        transition:all .5s;
+        position:relative;
+        opacity:0.5;
+    }
+    label {
+        display: inline-block;
+        background: rgb(51, 51, 51);
+        border-radius: 10px;
+        padding:10px;
+        color:white;
+        cursor:pointer;
+    }
+    input[type="checkbox"] {
+        visibility:hidden;
+        position:absolute;
+    }
+    #collapse:not(:checked) ~ li {
+        display:none;
+        margin-top:0;
+    }
+    #collapse:not(:checked) + label:before {
+        position: relative;
+        opacity:1;
+    }
 }
