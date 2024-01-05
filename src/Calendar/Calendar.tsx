@@ -3,7 +3,7 @@ import "./Calendar.css"
 
 const Contact = () => {
     return (
-        <div className="center adjust text flexy">
+        <div className="center adjust text flexIt">
             <div className="frosted-glass">
                 <h2 className="heading" style={{paddingTop: 40}}>Calendar</h2>
             </div>
