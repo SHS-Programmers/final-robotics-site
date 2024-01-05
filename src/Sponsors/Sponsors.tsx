@@ -48,13 +48,13 @@ const Sponsors = () => {
                     <h2 className="heading">Silver</h2>
                     <img src={"./NKCSCHOOLS.svg"} alt={"NKC Schools Logo"} style={{backgroundColor:"#545454", borderRadius:"15px"}} />
                     <a href={"https://www.nkcschools.org/"} style={{color: "green", textDecoration: "underline"}}>North Kansas City Website</a>
-                    <img src={"./kcstem.svg"} alt={"KC Stem Alliance Logo"} style={{backgroundColor:"#545454", borderRadius:"15px"}} />
-                    <a href={"https://www.kcstem.org/"} style={{color: "green", textDecoration: "underline"}}>KC Stem Alliance Websight</a>
+                    <img src={"./KCStem.svg"} alt={"KC Stem Alliance Logo"} style={{backgroundColor:"#545454", borderRadius:"15px"}} />
+                    <a href={"https://www.kcstem.org/"} style={{color: "green", textDecoration: "underline"}}>KC Stem Alliance Website</a>
                 </div>
                 <div className="frosted-glass bronze">
                     <h2 className="heading">Bronze</h2>
                     <img src={"./Microsoft Logo.svg"} alt={"Microsoft Tyler Rindels Logo"} style={{backgroundColor:"#545454", borderRadius:"15px"}} />
-                    <img src={"./cat.svg"} alt={"CAT Casey Behringer Logo"} style={{backgroundColor:"#545454", borderRadius:"15px"}} />
+                    <img src={"./Cat.svg"} alt={"CAT Casey Behringer Logo"} style={{backgroundColor:"#545454", borderRadius:"15px"}} />
                 </div>
             </div>
             <div className="frosted-glass spread center">
