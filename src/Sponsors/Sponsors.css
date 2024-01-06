@@ -41,3 +41,6 @@
     display: flex;
     margin-top: 10px;
 }
+.frost-alt {
+    background: rgba(43, 43, 43, 1);
+}
