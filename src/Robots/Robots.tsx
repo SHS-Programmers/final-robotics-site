@@ -15,9 +15,9 @@ function Robots() {
 
                     <p className="left"><strong>Robot Name: TBA</strong></p>
 
-                    <p className="left">The goal of the <a href={"https://www.youtube.com/watch?v=GP7oNte1q0U"}
+                    <p className="left">The goal of the <a href={"https://www.youtube.com/watch?v=9keeDyFxzY4"}
                                                            style={{color: "green", textDecoration: "underline"}}>2024
-                        Crescendo game</a> has yet to be announced.</p>
+                        Crescendo game</a> is to launch or place foam rings called 'notes' into various apertures around the field. At the end of the game, teams must climb onto a chain while a human player throws striped rings (high notes) to achieve point bonuses</p>
                 </div>
             </div>
             <div className="" style={{position: "relative", width: "100%", height: "75vh", backgroundColor:"#343434", borderRadius: "10px"}}>

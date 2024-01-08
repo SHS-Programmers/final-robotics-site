@@ -23,7 +23,7 @@
 }
 @media only screen and (min-width: 700px) {
     .parallax {
-        background-image: url("./countdown.jpeg");
+        background-image: url("./countdown.JPG");
     }
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
