@@ -1,11 +1,11 @@
 /* eslint-disable */
 import React from 'react';
 import '../App.css';
-import './Robots.css';
+import './Seasons.css';
 import Element3D from "../Components/3D/Element3D";
 // import "../../public/Rapid-React.webp"
 
-function Robots() {
+function Seasons() {
     return (
         <div className="adjust">
             <div className="center">
@@ -61,4 +61,4 @@ function Robots() {
     );
 }
 
-export default Robots;
+export default Seasons;

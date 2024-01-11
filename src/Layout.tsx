@@ -8,7 +8,7 @@ import Donate from './Donate/Donate';
 import Fundraising from './Fundraising/Fundraising';
 import Contact from './Contact/Contact';
 import Footer from './Components/Footer/Footer';
-import Robots from './Robots/Robots';
+import Seasons from './Seasons/Seasons';
 import Calendar from './Calendar/Calendar';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
@@ -26,7 +26,7 @@ const Layout: React.FC = () => {
                 <Route path="/fundraising" Component={Fundraising as React.ComponentType} />
                 <Route path="/contact" Component={Contact as React.ComponentType} />
                 <Route path="/calendar" Component={Calendar as React.ComponentType} />
-                <Route path="/robots" Component={Robots as React.ComponentType} />
+                <Route path="/seasons" Component={Seasons as React.ComponentType} />
                 <Route path="*" element={<div className="center" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color:"green"}}>404 Not Found</div>} />
             </Routes>
             <SpeedInsights />

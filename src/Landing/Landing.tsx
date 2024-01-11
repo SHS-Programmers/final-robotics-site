@@ -34,7 +34,7 @@ function Landing() {
                             and in 2023 our head coach, Aaron Dalton, received the Woodie Flowers Award for his impact
                             on our team.
                             We hope to continue competing and building successful robots in years to come.<br/><br/>
-                            <a href={"/robots"} style={{color:"Green",textDecoration:"underline"}}>Past robots and events.</a> <br/>
+                            <a href={"/seasons"} style={{color:"Green",textDecoration:"underline"}}>Past robots and events.</a> <br/>
                         </p>
                     </div>
                 </div>

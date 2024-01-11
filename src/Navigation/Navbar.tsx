@@ -45,8 +45,8 @@ const Navbar: React.FC = () => {
                     </NavLink>
                 </li>
                 <li id="current">
-                    <NavLink to="/robots" className="stolfus">
-                        Robots
+                    <NavLink to="/seasons" className="stolfus">
+                        Seasons
                     </NavLink>
                 </li>
             </ul>
