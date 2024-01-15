@@ -1,0 +1,53 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    align-items: center;
+}
+
+.container > svg {
+    position: relative;
+    display: block;
+    font: 10.5em "Times New Roman", serif;
+    width: 100vw;
+    height: 120vh;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke-dasharray: 1 100;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke-linejoin: round;
+    stroke-linecap: square;
+    animation: stroke-offset 60s infinite linear;
+}
+
+@keyframes stroke-offset {
+    0% {
+        opacity: 0;
+        stroke-dasharray: 1 100;
+    }
+    2% {
+        opacity: 1;
+    }
+    30% {
+        stroke-dasharray: 100 1;
+    }
+    50% {
+        stroke-dasharray: 100 1;
+    }
+    78% {
+        opacity: 1;
+    }
+    80% {
+        stroke-dasharray: 1 100;
+        opacity: 0;
+    }
+}
+
+.llorar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

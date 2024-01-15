@@ -1,0 +1,39 @@
+.parallax-dimmer {
+    background: linear-gradient(180deg, #16161699 50%, #161616ff 90%);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.parallax-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 700px) {
+    .parallax {
+        width: 125vw;
+        height: 125vh;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        overflow: visible;
+        position: absolute;
+        top: 200px;
+        left: 0;
+    }
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

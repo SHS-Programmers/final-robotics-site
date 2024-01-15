@@ -3,7 +3,7 @@ import './styles.css';
 import backgroundManager from "../../Util/Background/BackgroundManager";
 import Parallax from "../../Util/Effects/Parallax";
 import Brand from "../../Util/Brand";
-import TitleEffect from "../../Util/Effects/Title/TitleEffect";
+import TitleEffect from "../../Util/Effects/Title";
 
 
 export default () => {

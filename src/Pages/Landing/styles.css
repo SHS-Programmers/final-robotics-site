@@ -1,0 +1,54 @@
+.titleFont {
+    margin: auto 5px;
+    letter-spacing: 10px;
+    width: 666px;
+    font-family: jockey one, monospace;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.introduction {
+    margin: 10vh 20px 80vh 20px;
+    display: flex;
+}
+
+.introduction > div {
+    flex: 1;
+}
+
+.overview-list {
+    margin: 20px 0;
+    list-style: none;
+    user-select: none;
+}
+
+.overview-list > li > svg {
+    height: 1em;
+    fill: #fff;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 15px;
+}
+
+.overview-list > li {
+    font-size: 1.25em;
+    vertical-align: middle;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.page-dimmer {
+    background: linear-gradient(180deg, #161616bb 50%, #161616ff 90%);
+    backdrop-filter: blur(8px);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
