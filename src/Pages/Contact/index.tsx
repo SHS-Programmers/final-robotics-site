@@ -1,6 +1,7 @@
 import React from 'react';
+import './styles.css';
 
-const Contact = () => {
+export default () => {
     return (
         <div className="center adjust text">
             <div className="">
@@ -31,5 +32,3 @@ const Contact = () => {
         </div>
     );
 };
-
-export default Contact;

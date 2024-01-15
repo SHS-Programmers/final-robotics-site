@@ -1,0 +1,134 @@
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100vw;
+    display: flex;
+}
+
+.nav ul {
+    padding: 5px;
+    margin: 25px auto;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul a {
+    padding: 0.75em 20px;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    font-size: 0.8em;
+}
+
+.nav li {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.nav li a::after {
+    content: '';
+    position: absolute;
+    background-color: #008b0c;
+    box-shadow: 0 0 20px 2px #008b0c;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    z-index: -1;
+    transform: scale(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.nav a:hover::after {
+    opacity: 0.5;
+    transform: scale(90%);
+}
+
+.nav a.active:hover::after {
+    animation-name: pulsate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.nav a.active::after {
+    content: "";
+    box-shadow: 0 0 20px 2px #008b0c;
+    background-color: #008b0c;
+    outline: none;
+    border-radius: 12px;
+    opacity: 1;
+    transform: scale(90%);
+    transition: background-color 0.5s ease, opacity 0.5s ease;
+}
+
+label {
+    display: none;
+    padding: 8px 10px;
+    color: white;
+    cursor: pointer;
+    float: right;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+    position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .nav ul {
+        margin: 25px;
+    }
+
+    .nav li {
+        display: block;
+    }
+
+    .nav :has(.brand) {
+        position: relative !important;
+        background: none !important;
+        border: none !important;
+        backdrop-filter: unset !important;
+    }
+
+    label:before {
+        content: "";
+        height: 1px;
+        width: 15px;
+        background: white;
+        display: inline-block;
+        box-shadow: 0 -5px 0 0 white, 0 -10px 0 0 white;
+        transition: all .5s;
+        position: relative;
+        opacity: 0.5;
+    }
+
+    label {
+        display: inline-block;
+    }
+
+    input[type="checkbox"] {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #collapse:not(:checked) ~ li {
+        display: none;
+        margin-top: 0;
+    }
+
+    #collapse:not(:checked) + label:before {
+        position: relative;
+        opacity: 1;
+    }
+
+    .nav a.active:after, .nav a:after {
+        border-radius: 16px !important;
+    }
+}

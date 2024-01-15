@@ -4,34 +4,7 @@
     width: 666px;
     font-family: jockey one, monospace;
 }
-.center{
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-}
-.landing-container {
-    position: relative;
-    overflow: hidden;
-}
-.parallax {
-    min-height: 1000px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    z-index: 1;
-}
-@media only screen and (min-width: 700px) {
-    .parallax {
-        background-image: url("./countdown.JPG");
-    }
-}
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
+
 .title {
     position: absolute;
     top: 50%;
@@ -40,24 +13,17 @@
     text-align: center;
 }
 
-.content {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
+.overview-list > li > svg {
+    height: 1.25em;
+    fill: #fff;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
 }
-.borderHomeInfo {
-    backdrop-filter: blur(10px);
-    background: rgba(128, 128, 128, 0.2);
-    border-radius: 20px;
-    overflow-y: auto;
-    max-height: calc(100vh - 40px);
-    padding: 20px;
-    margin: 20px;
-}
-.contain {
-    position: relative;
-    height: 100%;
-    translate: 0 -50%;
+
+.overview-list > li {
+    font-size: 1.25em;
+    vertical-align: middle;
+    font-weight: bold;
+    margin: 5px;
 }

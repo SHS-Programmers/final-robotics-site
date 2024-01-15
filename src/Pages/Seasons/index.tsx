@@ -1,11 +1,10 @@
 /* eslint-disable */
 import React from 'react';
-import '../App.css';
-import './Seasons.css';
-import Element3D from "../Components/3D/Element3D";
-// import "../../public/Rapid-React.webp"
+import '../../App.css';
+import './styles.css';
+import Effect3D from "../../Util/Effects/3D";
 
-function Seasons() {
+export default () => {
     return (
         <div className="adjust">
             <div className="center">
@@ -20,8 +19,8 @@ function Seasons() {
                         Crescendo game</a> is to launch or place foam rings called 'notes' into various apertures around the field. At the end of the game, teams must climb onto a chain while a human player throws striped rings (high notes) to achieve point bonuses.</p>
                 </div>
             </div>
-            <div className="" style={{position: "relative", width: "100%", height: "75vh", backgroundColor:"#343434", borderRadius: "10px"}}>
-                <Element3D/>
+            <div className="" style={{position: "relative", width: "100%", height: "75vh", backgroundColor:"#0000", borderRadius: "10px"}}>
+                <Effect3D />
             </div>
             <div className="center">
                 <div className="frosted-glass">
@@ -40,7 +39,7 @@ function Seasons() {
                 </div>
             </div>
             <div className="center space" style={{position: "relative", width: "100%", height: "75vh"}}>
-                <img src={"./Rapid-React.webp"} alt={"2022 Rapid React Robot & Partial Team Photo"}></img>
+                <img src={"./01.webp"} alt={"2022 Rapid React Robot & Partial Team Photo"}></img>
             </div>
             <div className="center">
                 <div className="frosted-glass">
@@ -60,5 +59,3 @@ function Seasons() {
         </div>
     );
 }
-
-export default Seasons;

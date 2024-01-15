@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Calendar.css"
+import "./styles.css"
 
-const Contact = () => {
+export default () => {
     return (
         <div className="center adjust text flexIt">
             <div className="frosted-glass">
@@ -16,5 +16,3 @@ const Contact = () => {
         </div>
     );
 };
-
-export default Contact;

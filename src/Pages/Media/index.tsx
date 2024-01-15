@@ -1,6 +1,7 @@
 import React from 'react';
+import './styles.css';
 
-const Media = () => {
+export default() => {
     return (
         <div>
             <h2>Media Page</h2>
@@ -8,5 +9,3 @@ const Media = () => {
         </div>
     );
 };
-
-export default Media;

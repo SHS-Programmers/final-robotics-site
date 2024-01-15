@@ -1,6 +1,7 @@
 import React from 'react';
-import "./Fundraising.css"
-const Fundraising = () => {
+import "./styles.css"
+
+export default () => {
     return (
         <div className="center adjust">
             <div className="frosted-glass Font left">
@@ -43,5 +44,3 @@ const Fundraising = () => {
         </div>
     );
 };
-
-export default Fundraising;

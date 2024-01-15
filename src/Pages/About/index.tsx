@@ -1,7 +1,7 @@
 import React from 'react';
-import './About.css';
+import './styles.css';
 
-const About = () => {
+export default () => {
     return (
 
         <div className="center adjust">
@@ -35,5 +35,3 @@ const About = () => {
         </div>
     );
 };
-
-export default About;

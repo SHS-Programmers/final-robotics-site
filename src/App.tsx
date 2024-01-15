@@ -1,13 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Layout from './Layout';
+import Navbar from './Navigation';
+import Footer from './Util/Footer/Footer';
+import { Outlet } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
+
 
 const App: React.FC = () => {
     return (
-        <Router>
-            <Layout />
-        </Router>
+        <>
+            <Analytics/>
+            <div id="background-root"/>
+            <Navbar/>
+            <div id="content">
+                <Outlet />
+                <SpeedInsights/>
+                <Footer/>
+            </div>
+        </>
     );
-};
+}
 
 export default App;

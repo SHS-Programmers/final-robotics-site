@@ -1,17 +1,28 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './Navbar.css';
-import logo from './yup.png';
+import React, {useEffect, useState} from 'react';
+import {Link, matchPath, NavLink, useLocation, useParams} from 'react-router-dom';
+import './styles.css';
+import Brand from "../Util/Brand";
 
-const Navbar: React.FC = () => {
+export default () => {
+
+    useEffect(() => {
+        const content = document.getElementById("content");
+        if (content === null) return;
+        content.addEventListener("scroll", (event: Event) => {
+            setDrift(-content.scrollTop / 3);
+        });
+    })
+
+    const [drift, setDrift] = useState(0);
+
+    console.log(drift)
 
     return (
         <div className="nav">
-            <div className="brand">
-                <img className="brand-icon" src={logo} alt="Staley Millennium Falcons Logo"/>
-                Millennium Falcons
-            </div>
-            <ul className="frosted-glass">
+            <Link to="/" className="frosted-glass" style={{ flexGrow: 1, margin: "25px 30px 25px 34px", position:"absolute", opacity: (drift < - 70 || useLocation().pathname !== "/") ? 1 : 0, transition: "opacity 250ms ease 100ms" }}>
+                <Brand />
+            </Link>
+            <ul className="frosted-glass" style={{ flexShrink: 1 }}>
                 <input type="checkbox" id="collapse"/>
                 <label htmlFor="collapse"></label>
                 <li id="current">
@@ -52,6 +63,4 @@ const Navbar: React.FC = () => {
             </ul>
         </div>
     );
-};
-
-export default Navbar;
+}

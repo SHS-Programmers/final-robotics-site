@@ -1,9 +1,7 @@
 import React from 'react';
-import '../App.css';
-import './Donate.css';
-import '../Fundraising/Fundraising.css'
+import './styles.css';
 
-function Donate() {
+export default () => {
     return (
         <div className="center adjust">
             <div className="frosted-glass Font left">
@@ -16,5 +14,3 @@ function Donate() {
         </div>
     );
 }
-
-export default Donate;
