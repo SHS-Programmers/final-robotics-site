@@ -20,7 +20,7 @@ function ThreeScene() {
     );
 }
 
-function Element3D() {
+function Drew3D() {
     return (
         <Canvas>
             <ThreeScene />
@@ -28,4 +28,4 @@ function Element3D() {
     );
 }
 
-export default Element3D;
+export default Drew3D;
