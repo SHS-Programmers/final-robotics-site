@@ -1,13 +1,18 @@
 .nav {
+    width: calc(100vw - 50px);
+    margin: 25px;
     position: fixed;
     z-index: 1000;
     top: 0;
-    width: 100vw;
     display: flex;
+    align-items: flex-start;
+}
+
+.nav > * {
+    padding: 5px;
 }
 
 .nav ul {
-    padding: 5px;
     margin: 25px auto;
     list-style: none;
     display: inline-block;
@@ -82,9 +87,6 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 767px) {
 
-    .nav ul {
-        margin: 25px;
-    }
 
     .nav li {
         display: block;
@@ -92,9 +94,9 @@ input[type="checkbox"] {
 
     .nav :has(.brand) {
         position: relative !important;
-        background: none !important;
-        border: none !important;
-        backdrop-filter: unset !important;
+        /*border: none !important;*/
+        /*background: none !important;*/
+        /*backdrop-filter: unset !important;*/
     }
 
     label:before {
