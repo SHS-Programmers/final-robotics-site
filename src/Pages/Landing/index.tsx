@@ -11,7 +11,7 @@ export default () => {
         const content = document.getElementById("content");
         if (content === null) return;
         content.addEventListener("scroll", (event: Event) => {
-            setBrandStick(content.scrollTop - 45 - window.innerHeight / 10);
+            setBrandStick(content.scrollTop - 45 - window.outerHeight / 10);
         });
         setTimeout(() => {
             backgroundManager.inject([<Parallax img="/media/countdown.jpg"/>, <TitleEffect color="#008b0c" text="4959" />, <div className="page-dimmer" />]);
@@ -34,7 +34,8 @@ export default () => {
         <div onScroll={(event) => setBrandStick(event.currentTarget.scrollTop)}>
             <div className="introduction card-stack">
                 <div>
-                    <Brand style={{position: "sticky", marginLeft: "40px", top: "calc(-10vh + 55px)",  opacity: (brandStick >= 0) ? 0 : 1, transition: "opacity 250ms ease 100ms" }}/>
+                    <Brand style={{position: "sticky", marginLeft: "39px", top: "calc(-10vh + 55px)",  opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 250ms ease 100ms" }}/>
+                    {brandStick}
                     <ul className="overview-list">
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
