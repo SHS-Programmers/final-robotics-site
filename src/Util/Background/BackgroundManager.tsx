@@ -21,11 +21,10 @@ class BackgroundManager {
                 this.queue.push(<Component {...src[i].props} className="injected-content"></Component>);
             } else this.queue.push(src[i]);
         }
-        this.render().then();
+        this.render();
     }
 
-    async render() {
-        // @ts-ignore
+    render() {
         this.root?.render(this.queue);
         this.rendered = this.queue;
         this.queue = [];

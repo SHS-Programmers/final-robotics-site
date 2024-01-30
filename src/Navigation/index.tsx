@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Link, NavLink, useLocation} from 'react-router-dom';
 import './styles.css';
-import Brand from "../Util/Brand";
+import Brand from "../Components/Brand";
 
 export default () => {
 
@@ -17,7 +17,7 @@ export default () => {
 
     return (
         <div className="nav">
-            <Link to="/" style={{ flexGrow: 1, margin: "25px 30px 25px 34px", position:"absolute", opacity: (drift >= 0 || useLocation().pathname !== "/") ? 1 : 0, transition: "opacity 250ms ease 100ms" }}>
+            <Link to="/" style={{ flexGrow: 1, margin: "25px 30px 25px 34px", position:"absolute", opacity: (drift >= 0 || useLocation().pathname !== "/") ? 1 : 0, transition: "opacity 100ms ease" }}>
                 <Brand />
             </Link>
             <ul className="frosted-glass" style={{ flexShrink: 1 }}>
