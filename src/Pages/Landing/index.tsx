@@ -2,10 +2,10 @@ import React, {useEffect, useState} from 'react';
 import './styles.css';
 import backgroundManager from "../../Util/Background/BackgroundManager";
 import Parallax from "../../Util/Effects/Parallax";
-import Brand from "../../Components/Brand";
+import Brand from "../../Util/Brand";
 import TitleEffect from "../../Util/Effects/Title";
 
-
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
     useEffect(() => {
         const content = document.getElementById("content");
@@ -33,7 +33,7 @@ export default () => {
         <div onScroll={(event) => setBrandStick(event.currentTarget.scrollTop)}>
             <div className="introduction card-stack">
                 <div>
-                    <Brand style={{position: "sticky", marginLeft: "39px", top: "calc(-9px - 1.5em)",  opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
+                    <Brand style={{position: "sticky", marginLeft: "29px", top: "calc(-9px - 1.5em)",  opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
                     <ul className="overview-list">
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">

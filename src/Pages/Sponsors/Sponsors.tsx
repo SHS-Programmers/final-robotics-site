@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Sponsors.css"
+
+// eslint-disable-next-line import/no-anonymous-default-export
 const Sponsors = () => {
     return (
         <div className="center adjust">

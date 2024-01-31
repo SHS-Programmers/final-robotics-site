@@ -2,7 +2,7 @@
 import React, {useEffect, useState} from 'react';
 import './styles.css';
 
-
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (props: { color: string, text: string, className?: string }) => {
 
     useEffect(() => {

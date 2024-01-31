@@ -1,9 +1,9 @@
-/* eslint-disable */
 import React from 'react';
 import '../../App.css';
 import './styles.css';
-import Effect3D from "../../Util/Effects/3D";
+import Scene3D from "../../Util/Effects/3D";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
     return (
         <div className="adjust">
@@ -20,7 +20,7 @@ export default () => {
                 </div>
             </div>
             <div className="" style={{position: "relative", width: "100%", height: "75vh", backgroundColor:"#0000", borderRadius: "10px"}}>
-                <Effect3D />
+                <Scene3D glb="/media/seasons/2023/model.glb" />
             </div>
             <div className="center">
                 <div className="frosted-glass">
