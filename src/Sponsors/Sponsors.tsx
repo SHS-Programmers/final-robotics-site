@@ -44,8 +44,6 @@ const Sponsors = () => {
                 </div>
                 <div className="frosted-glass frost-alt gold">
                     <h2 className="heading">Gold</h2>
-                    <img src={"./ROBSIGHT.svg"} alt={"Rob Sight Ford Logo"} />
-                    <a href={"https://www.robsightford.com/"} style={{color: "green", textDecoration: "underline"}}>Rob Sight Ford Website</a>
                 </div>
                 <div className="frosted-glass frost-alt silver">
                     <h2 className="heading">Silver</h2>
