@@ -1,11 +1,11 @@
 import React from 'react';
-import "./Sponsors.css"
+import "./styles.css"
 
 // eslint-disable-next-line import/no-anonymous-default-export
 const Sponsors = () => {
     return (
         <div className="center adjust">
-            <div className="frosted-glass frost-alt Font Left">
+            <div id="sponsor-heading" className="frosted-glass frost-alt Font Left">
                 <h2 className="heading">Sponsors</h2>
                 <strong className="Font">
                     Thank you to our wonderful sponsors. Sponsors are those who help our team financially and by
@@ -38,27 +38,27 @@ const Sponsors = () => {
             <div className="wrapper">
                 <div className="frosted-glass frost-alt platinum">
                     <h2 className="heading">Platinum</h2>
-                    <img src={"./Cat.svg"} alt={"CAT Casey Behringer Logo"} />
+                    <img src={"/media/sponsors/Cat.svg"} alt={"CAT Casey Behringer Logo"} />
                     <a href={"https://www.cat.com/en_US.html"} style={{color: "green", textDecoration: "underline"}}>Cat.com Website</a>
-                    <img src={"./Wiz-Logo.svg"} alt={"Wiz.io Logo"}/>
+                    <img src={"/media/sponsors/Wiz-Logo.svg"} alt={"Wiz.io Logo"}/>
                     <a href={"https://www.wiz.io/"} style={{color: "green", textDecoration: "underline"}}>Wiz.io
                         Website</a>
                 </div>
                 <div className="frosted-glass frost-alt gold">
                     <h2 className="heading">Gold</h2>
-                    <img src={"./ROBSIGHT.svg"} alt={"Rob Sight Ford Logo"} />
+                    <img src={"/media/sponsors/ROBSIGHT.svg"} alt={"Rob Sight Ford Logo"} />
                     <a href={"https://www.robsightford.com/"} style={{color: "green", textDecoration: "underline"}}>Rob Sight Ford Website</a>
                 </div>
                 <div className="frosted-glass frost-alt silver">
                     <h2 className="heading">Silver</h2>
-                    <img src={"./NKCSCHOOLS.svg"} alt={"NKC Schools Logo"} />
+                    <img src={"/media/sponsors/NKCSCHOOLS.svg"} alt={"NKC Schools Logo"} />
                     <a href={"https://www.nkcschools.org/"} style={{color: "green", textDecoration: "underline"}}>North Kansas City Website</a>
-                    <img src={"./KCStem.svg"} alt={"KC Stem Alliance Logo"} />
+                    <img src={"/media/sponsors/KCStem.svg"} alt={"KC Stem Alliance Logo"} />
                     <a href={"https://www.kcstem.org/"} style={{color: "green", textDecoration: "underline"}}>KC Stem Alliance Website</a>
                 </div>
                 <div className="frosted-glass frost-alt bronze">
                     <h2 className="heading">Bronze</h2>
-                    <img src={"./Microsoft Logo.svg"} alt={"Microsoft Tyler Rindels Logo"} />
+                    <img src={"/media/sponsors/Microsoft Logo.svg"} alt={"Microsoft Tyler Rindels Logo"} />
                 </div>
             </div>
             <div className="frosted-glass spread center">

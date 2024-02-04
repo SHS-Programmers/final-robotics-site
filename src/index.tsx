@@ -5,7 +5,7 @@ import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Landing from "./Pages/Landing";
 import backgroundManager from "./Util/Background/BackgroundManager";
 import About from "./Pages/About";
-import Sponsors from "./Pages/Sponsors/Sponsors";
+import Sponsors from "./Pages/Sponsors";
 import Donate from "./Pages/Donate";
 import Fundraising from "./Pages/Fundraising";
 import Contact from "./Pages/Contact";

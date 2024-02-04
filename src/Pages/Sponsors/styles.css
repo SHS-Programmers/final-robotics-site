@@ -44,3 +44,7 @@
 .frost-alt {
     background: rgba(43, 43, 43, 1);
 }
+
+#sponsor-heading {
+    display: block;
+}
