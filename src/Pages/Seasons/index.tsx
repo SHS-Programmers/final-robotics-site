@@ -1,10 +1,6 @@
 import React from 'react';
-import '../../App.css';
 import './styles.css';
 import Scene3D from "../../Util/Effects/3D";
-import '../App.css';
-import './Seasons.css';
-// import "../../public/Rapid-React.webp"
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
@@ -49,7 +45,7 @@ export default () => {
                 </div>
             </div>
             <div className="center space" style={{position: "relative", width: "100%", height: "75vh"}}>
-                <img src={"./01.webp"} alt={"2022 Rapid React Robot & Partial Team Photo"}></img>
+                <img src={"./01.webp"} alt={"2022 Rapid React Robot & Partial Team"}></img>
             </div>
             <div className="center">
                 <div className="frosted-glass">

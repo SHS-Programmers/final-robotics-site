@@ -10,7 +10,7 @@ export default () => {
     useEffect(() => {
         const content = document.getElementById("content");
         if (content === null) return;
-        content.addEventListener("scroll", (event: Event) => {
+        content.addEventListener("scroll", () => {
             setBrandStick(content.scrollTop - 45 - window.outerHeight / 10);
         });
         setTimeout(() => {
@@ -33,7 +33,7 @@ export default () => {
         <div onScroll={(event) => setBrandStick(event.currentTarget.scrollTop)}>
             <div className="introduction card-stack">
                 <div>
-                    <Brand style={{position: "sticky", marginLeft: "29px", top: "calc(-9px - 1.5em)",  opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
+                    <Brand style={{zIndex: 1000, position: "sticky", marginLeft: "39px", top: "calc(-9px - 1.5em)",  opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
                     <ul className="overview-list">
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
