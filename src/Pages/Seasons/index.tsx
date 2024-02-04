@@ -2,13 +2,16 @@ import React from 'react';
 import '../../App.css';
 import './styles.css';
 import Scene3D from "../../Util/Effects/3D";
+import '../App.css';
+import './Seasons.css';
+// import "../../public/Rapid-React.webp"
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
     return (
         <div className="adjust">
             <div className="center">
-                <div className="frosted-glass">
+                <div className="frosted-glass" style={{marginBottom:"50px"}}>
 
                     <h2 className="heading left">2024 - Crescendo</h2>
 
@@ -27,7 +30,14 @@ export default () => {
 
                     <h2 className="heading left">2023 - CHARGED UP</h2>
 
-                    <p className="left"><strong>Robot Name: Drew  </strong>(Above in 3D)</p>
+                    <p className="left">
+                        <strong>Robot Name: Drew </strong>
+                        (
+                        <a
+                            href={"/seasons/2023/3D"} style={{color:"green", textDecoration:"underline"}}>VIEW IN 3D
+                        </a>
+                        )
+                    </p>
 
                     <p className="left">The goal of the <a href={"https://www.youtube.com/watch?v=0zpflsYc4PA"}
                                                            style={{color: "green", textDecoration: "underline"}}>2023
