@@ -33,7 +33,7 @@ export default () => {
         <div onScroll={(event) => setBrandStick(event.currentTarget.scrollTop)}>
             <div className="introduction card-stack">
                 <div>
-                    <Brand style={{zIndex: 1000, position: "sticky", marginLeft: "39px", top: "calc(-9px - 1.5em)",  opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
+                    <Brand style={{zIndex: 1000, position: "sticky", marginLeft: "39px", top: "calc(-12px - 2rem)",  opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
                     <ul className="overview-list">
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">

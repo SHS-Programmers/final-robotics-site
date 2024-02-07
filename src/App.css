@@ -28,7 +28,6 @@ a {
     outline: none;
     border-radius: 12px;
     opacity: 0.5;
-    transform: scale(90%);
     transition: background-color 0.5s ease, opacity 0.5s ease;
     animation-name: pulsate;
     animation-duration: 2s;
@@ -75,6 +74,9 @@ a {
     left: 0;
     padding: 100px 20px 20px 20px;
     overflow: scroll;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    line-height: 1.75em;
 }
 
 .bg {
@@ -108,14 +110,22 @@ a {
     }
 }
 
+.brand-font {
+    font-family: "Jockey One", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 15px;
+    color: #ffffff;
+}
+
 .brand {
     font-family: "Jockey One", sans-serif;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin: 0 15px;
-    font-size: 1.5em;
+    font-size: 2rem;
     color: #ffffff;
-    vertical-align: top;
+    vertical-align: middle;
     display: inline-block;
     user-select: none;
     text-shadow: #000000 0 0 20px;
@@ -125,7 +135,7 @@ a {
 .brand-icon {
     height: 1em;
     vertical-align: middle;
-    margin-right: 0.5em;
+    margin-right: 0.75rem;
     box-shadow: 0 0 20px #00000088;
     background: #0000003d;
     border-radius: 15px 15px 30px 30px;

@@ -9,7 +9,7 @@ export default () => {
     useEffect(() => {
         const content = document.getElementById("content");
         if (content === null) return;
-        content.addEventListener("scroll", (event: Event) => {
+        content.addEventListener("scroll", () => {
             setDrift(content.scrollTop - 45 - window.outerHeight / 10);
         });
     })
@@ -18,7 +18,7 @@ export default () => {
 
     return (
         <div className="nav">
-            <Link to="/" style={{ flexGrow: 1, margin: "25px 20px 25px 34px", position:"absolute", opacity: (drift >= 0 || useLocation().pathname !== "/") ? 1 : 0, transition: "opacity 100ms ease" }}>
+            <Link to="/" style={{ flexGrow: 1, margin: "20px 20px 25px 34px", position:"absolute", opacity: (drift <= 0 && useLocation().pathname === "/") ? 0 : 1, transition: "opacity 100ms ease" }}>
                 <Brand />
             </Link>
             <ul className="frosted-glass" style={{ flexShrink: 1 }}>
