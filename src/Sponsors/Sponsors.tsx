@@ -44,6 +44,8 @@ const Sponsors = () => {
                 </div>
                 <div className="frosted-glass frost-alt gold">
                     <h2 className="heading">Gold</h2>
+                    <img src={"./Alice.svg"} alt={"Alice Scoopers Logo"} />
+                    <a href={"https://www.alicescooperskc.com/"} style={{color: "green", textDecoration: "underline"}}>Alice Scooper's Website</a>
                 </div>
                 <div className="frosted-glass frost-alt silver">
                     <h2 className="heading">Silver</h2>
