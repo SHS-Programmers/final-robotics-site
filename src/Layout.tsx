@@ -16,10 +16,24 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 
 const Layout: React.FC = () => {
+
+    const currentPath = window.location.pathname;
+
+    const isTwitchPage = currentPath === "/twitch";
+
+    const renderNavbar = !isTwitchPage && (
+        <Navbar />
+    );
+
+    const renderFooter = !isTwitchPage && (
+        <Footer />
+    );
+
+
     return (
         <div>
             <Analytics />
-            <Navbar />
+            {renderNavbar}
             <Routes>
                 <Route path="/" Component={Landing as React.ComponentType} />
                 <Route path="/about" Component={About as React.ComponentType} />
@@ -34,7 +48,7 @@ const Layout: React.FC = () => {
                 <Route path="*" element={<div className="center" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color:"green"}}>404 Not Found</div>} />
             </Routes>
             <SpeedInsights />
-            <Footer />
+            {renderFooter}
         </div>
     );
 };
