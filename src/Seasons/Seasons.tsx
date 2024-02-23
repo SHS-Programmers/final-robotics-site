@@ -8,7 +8,7 @@ function Seasons() {
     return (
         <div className="adjust">
             <div className="center">
-                <div className="frosted-glass" style={{marginBottom:"50px"}}>
+                <div className="frosted-glass" style={{marginBottom: "50px"}}>
 
                     <h2 className="heading left">2024 - Crescendo</h2>
 
@@ -16,11 +16,10 @@ function Seasons() {
 
                     <p className="left">The goal of the <a href={"https://www.youtube.com/watch?v=9keeDyFxzY4"}
                                                            style={{color: "green", textDecoration: "underline"}}>2024
-                        Crescendo game</a> is to launch or place foam rings called 'notes' into various apertures around the field. At the end of the game, teams must climb onto a chain while a human player throws striped rings (high notes) to achieve point bonuses.</p>
+                        Crescendo game</a> is to launch or place foam rings called 'notes' into various apertures around
+                        the field. At the end of the game, teams must climb onto a chain while a human player throws
+                        striped rings (high notes) to achieve point bonuses.</p>
                 </div>
-            </div>
-            <div className="center">
-                <img src={"./Drew2D.png"} alt={"2023 Charged Up Robot"}></img>
             </div>
             <div className="center">
                 <div className="frosted-glass">
@@ -31,7 +30,7 @@ function Seasons() {
                         <strong>Robot Name: Drew </strong>
                         (
                         <a
-                            href={"/seasons/2023/3D"} style={{color:"green", textDecoration:"underline"}}>VIEW IN 3D
+                            href={"/seasons/2023/3D"} style={{color: "green", textDecoration: "underline"}}>VIEW IN 3D
                         </a>
                         )
                     </p>
@@ -45,15 +44,15 @@ function Seasons() {
                         station.</p>
                 </div>
             </div>
-            <div className="center space" style={{position: "relative", width: "100%", height: "75vh"}}>
-                <img src={"./Rapid-React.webp"} alt={"2022 Rapid React Robot & Partial Team Photo"}></img>
+            <div className="center">
+                <img src={"./Drew2D.png"} alt={"2023 Charged Up Robot"}></img>
             </div>
             <div className="center">
                 <div className="frosted-glass">
 
                     <h2 className="heading left">2022 - Rapid React</h2>
 
-                    <p className="left"><strong>Robot Name: Unnamed  </strong>(Above Image)</p>
+                    <p className="left"><strong>Robot Name: Unnamed </strong>(Above Image)</p>
 
                     <p className="left">The goal of the <a href={"https://www.youtube.com/watch?v=LgniEjI9cCM"}
                                                            style={{color: "green", textDecoration: "underline"}}>2022
@@ -62,6 +61,9 @@ function Seasons() {
                         robot can achieve. We achieved an outstanding position of 3rd place that year, an incredible
                         position as a rookie team.</p>
                 </div>
+            </div>
+            <div className="center space" style={{position: "relative", width: "100%", height: "75vh"}}>
+                <img src={"./Rapid-React.webp"} alt={"2022 Rapid React Robot & Partial Team Photo"}></img>
             </div>
         </div>
     );
