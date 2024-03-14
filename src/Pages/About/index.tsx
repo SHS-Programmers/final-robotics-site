@@ -1,19 +1,23 @@
 import React from 'react';
 import './styles.css';
+import backgroundManager from "../../Util/Background/BackgroundManager";
+import Parallax from "../../Util/Effects/Parallax";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
+    setTimeout(() => {
+        backgroundManager.inject([<Parallax img="/media/countdown.jpg"/>, <div className="page-dimmer" />]);
+    }, 1);
     return (
-
         <div className="center adjust">
-            <h1 className={"brand-font"}>OUR MISSION</h1>
+            <h1>Our Mission</h1>
             <p style={{ marginLeft: "15vw", marginRight: "15vw", fontStyle: "italic" }}>
                 Staley High School Robotics is working to provide students with the opportunity to
                 achieve success as a team, develop leadership skills, and teach gracious professionalism.
             </p>
             <br />
             <br />
-            <h1 className={"brand-font"}><a href={"https://www.firstinspires.org/about"}>What is first?</a></h1>
+            <h1><a href={"https://www.firstinspires.org/about"}>What is first?</a></h1>
             <p>
                 The FIRST Robotics Competition pairs high school students with adult mentors (primarily engineers
                 and teachers) to design and build robots that compete against one another in this high energy

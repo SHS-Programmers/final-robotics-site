@@ -14,41 +14,44 @@
 }
 
 .introduction {
-    margin: 10vh 20px 80vh 20px;
+    margin: 10vh 50px 80vh;
     display: flex;
 }
 
 .introduction > div {
-    flex: 1;
+    flex-grow: 1;
 }
 
 .overview-list {
-    margin: 20px 0;
+    margin: 10px 0 20px 0;
     list-style: none;
     user-select: none;
 }
 
-.overview-list > li > svg {
+.overview-list .frosted-glass > svg, .overview-list .frosted-glass > span {
     height: 1em;
     fill: #fff;
-    display: inline-block;
-    vertical-align: text-top;
-    margin-right: 10px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.overview-list svg {
+    margin-right: 5px;
+    height: 0.9em !important;
+}
+
+.overview-list .frosted-glass {
+    font-size: 0.85rem;
+    vertical-align: middle;
+    font-weight: 700;
+    padding: 5px 15px !important;
+    margin: 0 !important;
 }
 
 .overview-list > li {
-    font-size: 1em;
-    vertical-align: middle;
-    font-weight: bold;
-    margin: 15px;
+    display: inline-block;
 }
 
-.page-dimmer {
-    background: linear-gradient(180deg, #161616bb 50%, #161616ff 90%);
-    backdrop-filter: blur(8px);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
+.overview-list a {
+    padding: 5px 10px;
 }

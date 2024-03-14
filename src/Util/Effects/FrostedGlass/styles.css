@@ -1,0 +1,10 @@
+.frosted-glass {
+    background: radial-gradient(circle at center, #2b2b2b7f 0%, #2b2b2b7f 100%); /* Adjust the alpha value for transparency */
+    backdrop-filter: blur(7px); /* Adjust the blur amount */
+    display: inline-block;
+    border-radius: 18px;
+    border: 1px solid #ffffff22;
+    color: #ffffff;
+    padding: 5px;
+    transition: background 1s, transform 1s;
+}
