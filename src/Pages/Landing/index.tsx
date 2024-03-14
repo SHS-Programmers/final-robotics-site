@@ -37,7 +37,7 @@ export default () => {
         <div className="landing" onScroll={(event) => setBrandStick(event.currentTarget.scrollTop)}>
             <div className="introduction card-stack">
                 <div>
-                    <Brand style={{zIndex: 1000, position: "sticky", marginLeft: "39px", top: "calc(-12px - 2rem)", opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
+                    <Brand style={{zIndex: 1000, position: "sticky", top: "calc(-12px - 2rem)", opacity: (brandStick > 0) ? 0 : 1, transition: "opacity 100ms ease" }}/>
                     <ul className="overview-list">
                         <li>
                             <a href="https://www.thebluealliance.com/team/4959">
@@ -62,7 +62,7 @@ export default () => {
                             </a>
                         </li>
                     </ul>
-                    <p style={{textAlign: "left", margin: "25px", lineHeight: "2em"}}>
+                    <p style={{textAlign: "left", margin: "10px",lineHeight: "2em"}}>
                         Staley Robotics, also known as the Millennium Falcons robotics team, is registered as team
                         4959 of FIRST Robotics. Since our founding in 2013, we have worked to develop a strong sense of
                         community and form a basis for our team to continue to thrive and expand upon for years to come.
