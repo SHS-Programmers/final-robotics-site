@@ -1,6 +1,11 @@
-.diff-bg {
-    background-color: grey;
+.season-list {
+    margin: 10vh 50px 50px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
 }
-.space {
-    padding-top: 150px;
+
+.season-list > li {
+    display: flex;
+    flex-grow: 1;
 }

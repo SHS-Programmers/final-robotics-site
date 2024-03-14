@@ -1,0 +1,42 @@
+.arrow {
+    height: 0.5rem;
+    display: inline-block;
+    fill: context-fill;
+    vertical-align: top;
+    transition: margin 0.5s, padding 0.5s;
+    margin: 0.25rem 0.5rem;
+    padding: 0;
+}
+
+.arrow.arrow-centered {
+    margin: 0.25rem auto;
+    display: block;
+}
+
+*:hover > .arrow-E {
+    margin-left: 0.75rem;
+    margin-right: 0.25rem;
+}
+
+*:hover > .arrow-W {
+    margin-left: 0.25rem;
+    margin-right: 0.75rem;
+}
+
+*:hover > .arrow-E.arrow-centered {
+    padding-left: 0.5rem;
+}
+
+*:hover > .arrow-W.arrow-centered {
+    padding-left: 0.5rem;
+}
+
+*:hover > .arrow-N {
+    margin-top: 0.125rem;
+    margin-bottom: 0.325rem;
+}
+
+*:hover > .arrow-S {
+    margin-top: 0.325rem;
+    margin-bottom: 0.125rem;
+}

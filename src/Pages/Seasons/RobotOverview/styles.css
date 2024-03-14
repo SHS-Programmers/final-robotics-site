@@ -1,0 +1,30 @@
+.season-container {
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.25s;
+}
+
+.season-container:hover {
+    transform: scale(110%);
+}
+
+.season-overlay {
+    height: 100%;
+    /*backdrop-filter: blur(8px);*/
+    position: absolute;
+    top: 0;
+}
+
+.season-container canvas {
+    width: 400px !important;
+    height: 400px !important;
+}
+
+.game-logo {
+    height: 4em;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}

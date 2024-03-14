@@ -10,10 +10,9 @@
 .parallax {
     width: 100vw;
     height: 100vh;
-    background-size: auto 100%;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: top;
     overflow: visible;
     position: absolute;
-    top: 200px;
     left: 0;
 }

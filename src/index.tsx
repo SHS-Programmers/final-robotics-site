@@ -18,14 +18,14 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
+        loader: async () => {
+            // TODO: This is extremely unreliable - backgroundManager should connect when #background-root loads
+            setTimeout(backgroundManager.connect.bind(backgroundManager), 1);
+            return null;
+        },
         children: [
-            { path: "/", element: <Landing />, loader: async () => {
-                    // TODO: This is extremely unreliable - backgroundManager should connect when #background-root loads
-                    setTimeout(backgroundManager.connect.bind(backgroundManager), 5);
-                    return null;
-                }
-            },
-            { path: "/about", element: <About/> },
+            { path: "/", element: <Landing /> },
+            { path: "/about", element: <About /> },
             { path: "/sponsors", element: <Sponsors/> },
             { path: "/donate", element: <Donate/> },
             { path: "/fundraising", element: <Fundraising/> },

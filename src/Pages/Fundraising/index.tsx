@@ -33,12 +33,9 @@ export default () => {
                     </menu>
                     Please take a moment to visit our current fundraisers. Every bit supports our team.
                     <menu className="Font left">
-                        <p>
-                            - <a href={"/donate"} style={{color:"Green",textDecoration:"underline"}}>Donations</a>
-                        </p>
-                        <p>
-                            - <a href={"https://www.staleyfalconclub.com/falcon-club-memberships/"} style={{all:"unset",color:"Green",textDecoration:"underline"}}>Falcon Club</a>
-                        </p>
+                        <a href={"/donate"} style={{color: "Green", textDecoration: "underline"}}>Donations</a>
+                        <a href={"https://www.staleyfalconclub.com/falcon-club-memberships/"}
+                            style={{color: "Green", textDecoration: "underline"}}>Falcon Club</a>
                     </menu>
                 </p>
             </div>
