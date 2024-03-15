@@ -18,6 +18,7 @@
 }
 
 .season-container canvas {
+    max-width: calc(85vw - 30px);
     width: 400px !important;
     height: 400px !important;
 }
