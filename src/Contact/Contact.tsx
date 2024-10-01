@@ -19,9 +19,9 @@ const Contact = () => {
 
                     Faculty Advisors: <br/><br/>
 
-                    <span style={{marginLeft: "20px"}}>Aaron Dalton  - aaron.dalton@nkcschools.org</span> <br/>
-
-                    <span style={{marginLeft: "20px"}}>Jarrod Sims - jarrod.sims@nkcschools.org</span> <br/><br/>
+                    <span style={{marginLeft: "20px"}}>Thi Nguyen, Ed.D: thi.nguyen@nkcschools.org</span> <br/>
+                    <br />
+                    <span style={{marginLeft: "20px"}}>Aaron Gudde: aaron.gudde@nkcschools.org</span> <br/><br/>
 
                     Address: <br/><br/>
 
