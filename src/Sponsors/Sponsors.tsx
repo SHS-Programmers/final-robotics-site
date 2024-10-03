@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Sponsors.css"
+
 const Sponsors = () => {
     return (
         <div className="center adjust">
@@ -36,31 +37,46 @@ const Sponsors = () => {
             <div className="wrapper">
                 <div className="frosted-glass frost-alt platinum">
                     <h2 className="heading">Platinum</h2>
-                    <img src={"./Cat.svg"} alt={"CAT Casey Behringer Logo"} />
-                    <a href={"https://www.cat.com/en_US.html"} style={{color: "green", textDecoration: "underline"}}>Cat.com Website</a>
+                    <img src={"./Labconco.svg"} alt={"Labconco Logo"} style={{maxWidth: 500}}/>
+                    <br/>
+                    <a href={"https://www.labconco.com/"} style={{color: "green", textDecoration: "underline"}}>Labconco
+                        Website</a>
+                    <br/>
+                    <img src={"./Cat.svg"} alt={"CAT Casey Behringer Logo"}/>
+                    <br/>
+                    <a href={"https://www.cat.com/en_US.html"} style={{color: "green", textDecoration: "underline"}}>Cat.com
+                        Website</a>
+                    <br/>
                     <img src={"./Wiz-Logo.svg"} alt={"Wiz.io Logo"}/>
+                    <br/>
                     <a href={"https://www.wiz.io/"} style={{color: "green", textDecoration: "underline"}}>Wiz.io
                         Website</a>
+                    <br/>
+                    <img src={"./NKCSCHOOLS.svg"} alt={"NKC Schools Logo"}/>
+                    <br/>
+                    <a href={"https://www.nkcschools.org/"} style={{color: "green", textDecoration: "underline"}}>North
+                        Kansas City School District Website</a>
                 </div>
                 <div className="frosted-glass frost-alt gold">
                     <h2 className="heading">Gold</h2>
-                    <img src={"./Alice.svg"} alt={"Alice Scoopers Logo"} />
-                    <a href={"https://www.alicescooperskc.com/"} style={{color: "green", textDecoration: "underline"}}>Alice Scooper's Website</a>
+                    <img src={"./Alice.svg"} alt={"Alice Scoopers Logo"}/>
+                    <a href={"https://www.alicescooperskc.com/"} style={{color: "green", textDecoration: "underline"}}>Alice
+                        Scooper's Website</a>
                 </div>
                 <div className="frosted-glass frost-alt silver">
                     <h2 className="heading">Silver</h2>
-                    <img src={"./NKCSCHOOLS.svg"} alt={"NKC Schools Logo"} />
-                    <a href={"https://www.nkcschools.org/"} style={{color: "green", textDecoration: "underline"}}>North Kansas City Website</a>
-                    <img src={"./KCStem.svg"} alt={"KC Stem Alliance Logo"} />
-                    <a href={"https://www.kcstem.org/"} style={{color: "green", textDecoration: "underline"}}>KC Stem Alliance Website</a>
+                    <img src={"./KCStem.svg"} alt={"KC Stem Alliance Logo"}/>
+                    <a href={"https://www.kcstem.org/"} style={{color: "green", textDecoration: "underline"}}>KC Stem
+                        Alliance Website</a>
                 </div>
                 <div className="frosted-glass frost-alt bronze">
                     <h2 className="heading">Bronze</h2>
-                    <img src={"./Microsoft Logo.svg"} alt={"Microsoft Tyler Rindels Logo"} />
+                    <img src={"./Microsoft Logo.svg"} alt={"Microsoft Tyler Rindels Logo"}/>
                 </div>
             </div>
             <div className="frosted-glass spread center">
-                <p>A very special thanks goes to the <strong>Behringer</strong> and <strong>Koontz</strong> families for their hard work and support!</p>
+                <p>A very special thanks goes to the <strong>Behringer</strong> and <strong>Koontz</strong> families for
+                    their hard work and support!</p>
             </div>
         </div>
     );
