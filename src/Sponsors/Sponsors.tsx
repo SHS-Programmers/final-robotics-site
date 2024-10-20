@@ -54,8 +54,14 @@ const Sponsors = () => {
                     <br/>
                     <img src={"./NKCSCHOOLS.svg"} alt={"NKC Schools Logo"}/>
                     <br/>
+
                     <a href={"https://www.nkcschools.org/"} style={{color: "green", textDecoration: "underline"}}>North
                         Kansas City School District Website</a>
+                    <br/>
+                    <img src={"./ArgosyFoundation.svg"} alt={"Argosy Foundation Logo"} style={{maxWidth: 603}}/>
+                    <br/>
+                    <a href={"https://www.argosyfoundation.org/"} style={{color: "green", textDecoration: "underline"}}>Argosy
+                        Foundation Website</a>
                 </div>
                 <div className="frosted-glass frost-alt gold">
                     <h2 className="heading">Gold</h2>
