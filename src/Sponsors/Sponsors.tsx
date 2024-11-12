@@ -21,7 +21,7 @@ const Sponsors = () => {
                         </li>
                         <li className="Font">
                             $500 - Silver, your logo and a link to your website are listed on our website's sponsors
-                            page.
+                            page, and your logo is printed on our team shirt.
                         </li>
                         <li className="Font">
                             $1000 - Gold, a designed plaque, our robot displays your logo, and all Silver/Bronze
