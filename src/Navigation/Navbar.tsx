@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import logo from './yup.png';
+import logo from './Logo24-25.svg';
 
 const Navbar: React.FC = () => {
 
