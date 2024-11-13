@@ -1,18 +1,10 @@
-.titleFont {
-    margin: auto 5px;
-    letter-spacing: 10px;
-    width: 666px;
-    font-family: jockey one, monospace;
-}
-.center{
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-}
+/* General Styling */
 .landing-container {
     position: relative;
     overflow: hidden;
 }
+
+/* Parallax Background */
 .parallax {
     min-height: 1000px;
     background-attachment: fixed;
@@ -20,23 +12,31 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 1;
+    transform: translate(-50%);
 }
-@media only screen and (min-width: 700px) {
-    .parallax {
-        background-image: url("./countdown.JPG");
-    }
-}
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
+
+/* Title and Content Styling */
 .title {
     position: absolute;
-    top: 50%;
+    top: 50%; /* Starting point */
     left: 0;
     width: 100%;
+    text-align: center;
+    z-index: 2; /* Display above the slideshow */
+    transform: translateY(0) translateX(50%); /* Adjust dynamically */
+    transition: transform 0.05s linear; /* Smooth movement */
+}
+
+.titleFont {
+    margin: auto 5px;
+    letter-spacing: 10px;
+    width: 666px;
+    font-family: jockey one, monospace;
+}
+
+.center {
+    align-content: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -45,8 +45,9 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 2; /* Display above the slideshow */
 }
+
 .borderHomeInfo {
     backdrop-filter: blur(10px);
     background: rgba(128, 128, 128, 0.2);
@@ -56,8 +57,22 @@
     padding: 20px;
     margin: 20px;
 }
+
 .contain {
     position: relative;
     height: 100%;
     translate: 0 -50%;
+}
+/* Parallax Background Media Queries */
+@media only screen and (min-width: 700px) {
+    .parallax {
+        background-attachment: fixed;
+    }
+}
+
+/* Turn off parallax scrolling for smaller screens */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }

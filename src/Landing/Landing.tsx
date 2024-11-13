@@ -1,13 +1,38 @@
 // src/components/Landing.js
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../App.css';
 import './Landing.css';
 import TitleEffect from "../Components/Effects/Title/TitleEffect";
+import ImageSlider from "../Components/Effects/Slideshow/ImageSlider";
+
+const images = [
+    './slides/countdown.jpg',
+    './slides/Team2324.jpg',
+    './slides/Team2425.jpg',
+]
 
 function Landing() {
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY;
+            // Adjust `speedFactor` to control how fast the title scrolls compared to the rest
+            const speedFactor = 1.2; // Experiment with this value
+            const translateY = -scrollPosition * speedFactor;
+
+            // Apply the transformation directly to the element
+            const titleElement = document.querySelector('.title') as HTMLElement;
+            if (titleElement) {
+                titleElement.style.transform = `translateY(${translateY}px) translateX(50%)`;
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
     return (
         <div className="landing-container">
             <div className="parallax center bg">
+                <ImageSlider images={images} interval={4000} />
                 <div className="title">
                     <div className="frosted-glass contain">
                         <TitleEffect color1="var(--color-green)" color2="var(--color-black)" text="4959" />
