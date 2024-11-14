@@ -6,8 +6,8 @@ import TitleEffect from "../Components/Effects/Title/TitleEffect";
 import ImageSlider from "../Components/Effects/Slideshow/ImageSlider";
 
 const images = [
-    './slides/countdown.jpg',
-    './slides/Team2324.jpg',
+    './slides/countdown.JPG',
+    './slides/Team2324.JPG',
     './slides/Team2425.jpg',
 ]
 
