@@ -2,24 +2,45 @@
 import React from 'react';
 import '../App.css';
 import './Seasons.css';
+import ImageSlider from "../Components/Effects/Slideshow/ImageSlider";
 // import "../../public/Rapid-React.webp"
+
+const ShredderImages = [
+    "./ShredderPhotos/S1.JPG",
+    "./ShredderPhotos/S2.JPG",
+    "./ShredderPhotos/S3.JPG",
+    "./ShredderPhotos/S4.JPG",
+    "./ShredderPhotos/S5.JPG",
+    "./ShredderPhotos/S6.JPG",
+    "./ShredderPhotos/S7.JPG",
+    ]
 
 function Seasons() {
     return (
         <div className="adjust">
             <div className="center">
-                <div className="frosted-glass" style={{marginBottom: "50px"}}>
+                <div className="frosted-glass">
 
                     <h2 className="heading left">2024 - Crescendo</h2>
 
-                    <p className="left"><strong>Robot Name: TBA</strong></p>
+                    <p className="left"><strong>Robot Name: Shredder</strong>
+                        (
+                        <a
+                            href={"/seasons/2024/3D"} style={{color: "green", textDecoration: "underline"}}>VIEW IN 3D
+                        </a>
+                        )
+                    </p>
 
                     <p className="left">The goal of the <a href={"https://www.youtube.com/watch?v=9keeDyFxzY4"}
                                                            style={{color: "green", textDecoration: "underline"}}>2024
                         Crescendo game</a> is to launch or place foam rings called 'notes' into various apertures around
                         the field. At the end of the game, teams must climb onto a chain while a human player throws
-                        striped rings (high notes) to achieve point bonuses.</p>
+                        striped rings (high notes) to achieve point bonuses.
+                    </p>
                 </div>
+            </div>
+            <div className={"image"}>
+                <ImageSlider images={ShredderImages} interval={4500} />
             </div>
             <div className="center">
                 <div className="frosted-glass">
