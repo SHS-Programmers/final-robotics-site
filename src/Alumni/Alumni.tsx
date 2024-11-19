@@ -19,9 +19,16 @@ const alumniData = [
     {
       name: "Matthew Chaffin",
         contacts: {
-            email: "UNKNOWN"
+            email: "matthew@chaffins.us"
         },
-        skills: ["Electrical", "CNC", "3D Printing"]
+        skills: ["Electrical", "CNC", "3D Printing", "Laser Cutting", "CAD"]
+    },
+    {
+        name: "Archie Dinwiddie",
+        contacts: {
+            email: "archiedinwiddie3342@gmail.com",
+        },
+        skills: ["Leadership", "Design", "Build", "Power Tools"]
     }
 ];
 
