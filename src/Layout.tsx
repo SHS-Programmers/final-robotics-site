@@ -15,6 +15,7 @@ import Shredder3DPage from "./Seasons/3D_Pages/Shredder3D";
 import Twitch from './Twitch/Twitch';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
+import Alumni from './Alumni/Alumni';
 
 const Layout: React.FC = () => {
 
@@ -47,6 +48,7 @@ const Layout: React.FC = () => {
                 <Route path="/seasons/2023/3D" Component={Drew3DPage as React.ComponentType} />
                 <Route path="/seasons/2024/3D" Component={Shredder3DPage as React.ComponentType} />
                 <Route path="/twitch" Component={Twitch as React.ComponentType} />
+                <Route path="/alumni" Component={Alumni as React.ComponentType} />
                 <Route path="*" element={<div className="center" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color:"green"}}>404 Not Found</div>} />
             </Routes>
             <SpeedInsights />
