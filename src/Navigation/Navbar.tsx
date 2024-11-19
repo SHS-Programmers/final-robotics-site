@@ -49,6 +49,11 @@ const Navbar: React.FC = () => {
                         Seasons
                     </NavLink>
                 </li>
+                <li id="current">
+                    <NavLink to="/alumni" className="stolfus">
+                        Alumni Directory
+                    </NavLink>
+                </li>
             </ul>
         </div>
     );

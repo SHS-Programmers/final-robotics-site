@@ -67,7 +67,7 @@ const AboutSection = () => (
             received the Woodie Flowers Award for his impact on our team. We hope to continue competing and building
             successful robots in years to come.
             <br/><br/>
-            <a href="/seasons" className="about-link">Past robots and events.</a>
+            <a href="/seasons" className="about-link">Past robots and events</a>
         </p>
     </div>
 );
