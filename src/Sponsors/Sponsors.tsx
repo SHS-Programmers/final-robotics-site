@@ -77,12 +77,20 @@ const Sponsors = () => {
                 </div>
                 <div className="frosted-glass frost-alt bronze">
                     <h2 className="heading">Bronze</h2>
-                    <img src={"./Microsoft Logo.svg"} alt={"Microsoft Tyler Rindels Logo"}/>
                 </div>
             </div>
             <div className="frosted-glass spread center">
-                <p>A very special thanks goes to the <strong>Behringer</strong> and <strong>Koontz</strong> families for
-                    their hard work and support!</p>
+                <p>A very special thanks goes to the <strong>Rindels</strong> and <strong>Koontz</strong> families for
+                    their hard work and support!
+                </p>
+                <hr/>
+                <p>
+                    Tyler Rindels is our programming mentor. He is an amazing coach who has helped us learn how to code our robot with clean, quick, and modern coding practices. He has been a mentor for the team since 2023, and has been a huge help to the team.
+                </p>
+                <hr/>
+                <p>
+                    The Koontz family has been a huge help to the team. They have helped us with our robot design and development, and have been our representatives to our school district for funding and support.
+                </p>
             </div>
         </div>
     );

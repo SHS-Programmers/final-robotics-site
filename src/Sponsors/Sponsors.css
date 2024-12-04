@@ -38,7 +38,6 @@
     grid-column: 1;
 }
 .spread {
-    display: flex;
     margin-top: 10px;
 }
 .frost-alt {
