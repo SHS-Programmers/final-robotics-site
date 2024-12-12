@@ -37,7 +37,7 @@ const Sponsors = () => {
             <div className="wrapper">
                 <div className="frosted-glass frost-alt platinum">
                     <h2 className="heading">Platinum</h2>
-                    <img src={"./Labconco.svg"} alt={"Labconco Logo"} style={{maxWidth: 500}}/>
+                    <img src={"./Labconco100V.gif"} alt={"Labconco Logo"} style={{maxWidth: 600}}/>
                     <br/>
                     <a href={"https://www.labconco.com/"} style={{color: "green", textDecoration: "underline"}}>Labconco
                         Website</a>
