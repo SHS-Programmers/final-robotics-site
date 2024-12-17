@@ -63,6 +63,9 @@
     height: 100%;
     translate: 0 -50%;
 }
+.no-margin {
+    margin-top: 0;
+}
 /* Parallax Background Media Queries */
 @media only screen and (min-width: 700px) {
     .parallax {

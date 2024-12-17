@@ -6,6 +6,7 @@ import TitleEffect from "../Components/Effects/Title/TitleEffect";
 import ImageSlider from "../Components/Effects/Slideshow/ImageSlider";
 
 const images = [
+    './slides/Team2526.JPG',
     './slides/countdown.JPG',
     './slides/Team2324.JPG',
     './slides/Team2425.jpg',
@@ -36,7 +37,6 @@ function Landing() {
                 <div className="title">
                     <div className="frosted-glass contain">
                         <TitleEffect color1="var(--color-green)" color2="var(--color-black)" text="4959" />
-                        <TeamInfo />
                     </div>
                 </div>
             </div>
@@ -46,13 +46,6 @@ function Landing() {
         </div>
     );
 }
-
-const TeamInfo = () => (
-    <ul aria-label="Team Information">
-        <li>🏷️ Millenium Falcons</li>
-        <li>📍 Staley High School</li>
-    </ul>
-);
 
 const AboutSection = () => (
     <div className="borderHomeInfo">

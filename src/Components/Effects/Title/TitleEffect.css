@@ -44,6 +44,10 @@
     stroke: #161616;
 }
 
+.text-copy.color9 {
+    stroke: #2b5500;
+}
+
 @keyframes stroke-offset {
     100% {
         stroke-dashoffset: -35%;
