@@ -20,6 +20,43 @@ function Seasons() {
             <div className="center">
                 <div className="frosted-glass">
 
+                    <h2 className="heading left">2025 - ReefScape</h2>
+                    <h3 className="left">*CURRENT SEASON*</h3>
+
+                    <p className="left"><strong>Robot Name: Undecided</strong>
+                        {/*(*/}
+                        {/*<a*/}
+                        {/*    href={"/seasons/2024/3D"} style={{color: "green", textDecoration: "underline"}}>VIEW IN 3D*/}
+                        {/*</a>*/}
+                        {/*)*/}
+                    </p>
+
+                    <p className="left">
+                        The goal of the <a href={"https://www.youtube.com/watch?v=YWbxcjlY9JY"}
+                                           style={{color: "green", textDecoration: "underline"}}>
+                        2025 ReefScape game
+                    </a> is to score coral (large sections of PVC pipe) onto the reef (a large structure in the center
+                        of each alliance's side of the field). The coral can be scored in various ways, such as placing
+                        it on the reef, hanging it on the reef, or stacking it on top of other coral. Also, teams must
+                        remove algae (over-sized playground balls) from the reef and place them in the barge (a
+                        structure with a net in the center of the field). These algae can be scored either by direct
+                        robot scoring into the net, or by placing them in processors that allow human players to score
+                        them. At the end of the game, teams must climb onto
+                        the barge's hanging cages to earn additional points.
+                        <br/>
+                        <br/>
+                        This year we will compete at the Heartland Regional (March 19-22), the Iowa Regional (March 26-29), and the Mo-Kan State Championship (TBD).
+                    </p>
+                </div>
+            </div>
+            <div className={"image"}>
+                {/*    Image placeholder indicating that we are too early in the season to have in photos of our robot*/}
+                <h1 className={"center"} style={{"color": "white"}}>Photos Coming Soon!</h1>
+
+            </div>
+            <div className="center">
+                <div className="frosted-glass">
+
                     <h2 className="heading left">2024 - Crescendo</h2>
 
                     <p className="left"><strong>Robot Name: Shredder</strong>
@@ -31,12 +68,10 @@ function Seasons() {
                     </p>
 
                     <p className="left">
-                        The goal of the
-                        <a href={"https://www.youtube.com/watch?v=9keeDyFxzY4"}
-                           style={{color: "green", textDecoration: "underline"}}>
-                            2024 Crescendo game
-                        </a>
-                        is to launch or place foam rings called 'notes' into various apertures around the
+                        The goal of the <a href={"https://www.youtube.com/watch?v=9keeDyFxzY4"}
+                                           style={{color: "green", textDecoration: "underline"}}>
+                        2024 Crescendo game
+                    </a> is to launch or place foam rings called 'notes' into various apertures around the
                         field. At the end of the game, teams must climb onto a chain while a human player throws striped
                         rings (high notes) to achieve point bonuses.
                         <br/>
@@ -87,7 +122,8 @@ function Seasons() {
                         We used pneumatic systems to open and close our claw. Our strategy was to score as many points
                         as possible by scoring cubes and cones into the grids, and working well with other teams in our
                         alliance. During this season we earned the Judges Award because of how professionally our robot
-                        looked. We spray painted each part very carefully —to the point where they appeared powder coated—
+                        looked. We spray painted each part very carefully —to the point where they appeared powder
+                        coated—
                         and had wonderful cable management. We also fit the majority of the components in the base of
                         the robot, which not only looked very clean, but also lowered the center of mass of the robot
                         down to make it more stable.
