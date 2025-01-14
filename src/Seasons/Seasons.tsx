@@ -13,6 +13,12 @@ const ShredderImages = [
     "./ShredderPhotos/S6.JPG",
     "./ShredderPhotos/S7.JPG",
 ]
+const ReefScapeImages = [
+    "./ReefScape/DSC_0283.jpg",
+    "./ReefScape/DSC_0315.jpg",
+    "./ReefScape/DSC_0336.jpg",
+    "./ReefScape/DSC_0338.jpg",
+    ]
 
 function Seasons() {
     return (
@@ -45,14 +51,13 @@ function Seasons() {
                         the barge's hanging cages to earn additional points.
                         <br/>
                         <br/>
-                        This year we will compete at the Heartland Regional (March 19-22), the Iowa Regional (March 26-29), and the Mo-Kan State Championship (TBD).
+                        This year we will compete at the Heartland Regional (March 19-22), the Iowa Regional (March
+                        26-29), and the Mo-Kan State Championship (TBD).
                     </p>
                 </div>
             </div>
             <div className={"image"}>
-                {/*    Image placeholder indicating that we are too early in the season to have in photos of our robot*/}
-                <h1 className={"center"} style={{"color": "white"}}>Photos Coming Soon!</h1>
-
+                <ImageSlider images={ReefScapeImages} interval={4500}/>
             </div>
             <div className="center">
                 <div className="frosted-glass">
