@@ -18,7 +18,7 @@ const ReefScapeImages = [
     "./ReefScape/DSC_0315.jpg",
     "./ReefScape/DSC_0336.jpg",
     "./ReefScape/DSC_0338.jpg",
-    ]
+]
 
 function Seasons() {
     return (
@@ -51,8 +51,10 @@ function Seasons() {
                         the barge's hanging cages to earn additional points.
                         <br/>
                         <br/>
-                        This year we will compete at the Heartland Regional (March 19-22), the Iowa Regional (March
-                        26-29), and the Mo-Kan State Championship (TBD).
+                        This year, our team will compete at the Heartland Regional (March 19–22) and the Iowa Regional
+                        (March 26–29). We aim to perform well enough to earn a spot at the FIRST Robotics World
+                        Championship (April 16–19) and receive an invitation to the Mo-Kan State Championship (date
+                        TBD).
                     </p>
                 </div>
             </div>
