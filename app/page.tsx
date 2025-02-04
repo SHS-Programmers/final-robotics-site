@@ -1,6 +1,7 @@
 'use client'
 import React from "react";
 import ImageSlider from "@/app/components/Effects/Slideshow/ImageSlider";
+import TitleImage from "@/app/components/Effects/Slideshow/TitleImage";
 
 const images = [
     "/slides/Team2526.JPG",
@@ -16,7 +17,7 @@ const Landing: React.FC = () => {
                 className="relative bg-fixed bg-cover bg-center min-h-screen"
                 style={{ backgroundImage: "url('/path-to-bg.jpg')" }}
             >
-                <ImageSlider images={images} interval={4000} />
+                <TitleImage images={images} interval={4000} />
                 <div
                     className="absolute bottom-28 left-8 z-20 transition-transform duration-300"
                 >
