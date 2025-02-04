@@ -18,7 +18,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, interval = 3000 }) =>
     }, [images.length, interval]);
 
     return (
-        <div className="relative w-full h-screen overflow-hidden">
+        <div className="relative w-full h-96 overflow-hidden">
             {images.map((image, index) => (
                 <Image
                     key={index}
