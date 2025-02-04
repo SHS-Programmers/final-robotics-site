@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Sponsors = () => {
     return (
@@ -21,39 +22,74 @@ const Sponsors = () => {
             </div>
 
             {/* Sponsors Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 w-full max-w-4xl">
+            <div className="flex flex-col gap-4 mt-8 w-full max-w-4xl">
                 {/* Platinum */}
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-bold font-jockey-one">Platinum</h2>
-                    <img src="/Labconco100V.gif" alt="Labconco Logo" className="mt-4 max-w-full" />
-                    <a href="https://www.labconco.com/" className="text-green-400 underline block mt-2">Labconco Website</a>
-                    <img src="/Cat.svg" alt="CAT Casey Behringer Logo" className="mt-4 max-w-full" />
-                    <a href="https://www.cat.com/en_US.html" className="text-green-400 underline block mt-2">Cat.com Website</a>
-                    <img src="/Wiz-Logo.svg" alt="Wiz.io Logo" className="mt-4 max-w-full" />
-                    <a href="https://www.wiz.io/" className="text-green-400 underline block mt-2">Wiz.io Website</a>
-                    <img src="/NKCSCHOOLS.svg" alt="NKC Schools Logo" className="mt-4 max-w-full" />
-                    <a href="https://www.nkcschools.org/" className="text-green-400 underline block mt-2">North Kansas City School District Website</a>
-                    <img src="/ArgosyFoundation.svg" alt="Argosy Foundation Logo" className="mt-4 max-w-full" />
-                    <a href="https://www.argosyfoundation.org/" className="text-green-400 underline block mt-2">Argosy Foundation Website</a>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/Labconco100V.gif" alt="Labconco Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.labconco.com/" className="text-green-400 block mt-2">Labconco Website</a>
+                        </div>
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/Cat.svg" alt="CAT Casey Behringer Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.cat.com/en_US.html" className="text-green-400 block mt-2">Cat.com Website</a>
+                        </div>
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/Wiz-Logo.svg" alt="Wiz.io Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.wiz.io/" className="text-green-400 block mt-2">Wiz.io Website</a>
+                        </div>
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/NKCSCHOOLS.svg" alt="NKC Schools Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.nkcschools.org/" className="text-green-400 block mt-2">North Kansas City School District Website</a>
+                        </div>
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/ArgosyFoundation.svg" alt="Argosy Foundation Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.argosyfoundation.org/" className="text-green-400 block mt-2">Argosy Foundation Website</a>
+                        </div>
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/GeneHaasFoundation.svg" alt="Gene Haas Foundation Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.ghaasfoundation.org/" className="text-green-400 block mt-2">Gene Haas Foundation Website</a>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Gold */}
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-bold font-jockey-one">Gold</h2>
-                    <img src="/Alice.svg" alt="Alice Scoopers Logo" className="mt-4 max-w-full" />
-                    <a href="https://www.alicescooperskc.com/" className="text-green-400 underline block mt-2">Alice Scooper&#39;s Website</a>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/Alice.svg" alt="Alice Scoopers Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.alicescooperskc.com/" className="text-green-400 block mt-2">Alice Scooper&#39;s Website</a>
+                        </div>
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="Holland1916.svg" alt="Holland 1916 Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.holland1916.com/" className="text-green-400 block mt-2">Holland 1916 Website</a>
+                        </div>
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/CBRE.svg" alt="CBRE Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.cbre.com/" className="text-green-400 block mt-2">CBRE Website</a>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Silver */}
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-bold font-jockey-one">Silver</h2>
-                    <img src="/KCStem.svg" alt="KC Stem Alliance Logo" className="mt-4 max-w-full" />
-                    <a href="https://www.kcstem.org/" className="text-green-400 underline block mt-2">KC Stem Alliance Website</a>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/KCStem.svg" alt="KC Stem Alliance Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.kcstem.org/" className="text-green-400 block mt-2">KC Stem Alliance Website</a>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Bronze */}
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-bold font-jockey-one">Bronze</h2>
+                    <div>
+                        <p className="text-center">No Current Bronze Level Sponsors</p>
+                    </div>
                 </div>
             </div>
 

@@ -21,7 +21,7 @@ const About: React.FC = () => {
                         href="/about/frc"
                         className="text-green-500 underline hover:text-green-300"
                     >
-                        Learn about our high school FRC team (4959)
+                        Learn about Staley’s Millennium Falcons, our High School FIRST Robotics Competition Team (4959)
                     </Link>
                 </li>
                 <li>
@@ -29,7 +29,7 @@ const About: React.FC = () => {
                         href="/about/ftc"
                         className="text-green-500 underline hover:text-green-300"
                     >
-                        Learn about our middle school feeder program FTC team
+                        Learn about New Mark’s Hurricane’s, our Middle School feeder program FIRST Tech Challenge Team (26467)
                     </Link>
                 </li>
             </ul>
