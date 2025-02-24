@@ -13,10 +13,23 @@ const Landing: React.FC = () => {
     return (
         <div className="relative overflow-hidden">
             <div
-                className="relative bg-fixed bg-cover bg-center min-h-screen"
+                className="relative bg-fixed bg-cover bg-center min-h-screen pt-0"
                 style={{ backgroundImage: "url('/path-to-bg.jpg')" }}
             >
                 <TitleImage images={images} interval={4000} />
+                <div className={"absolute top-52 left-1/2 transform -translate-x-1/2 z-20"}>
+                    <div className="bg-gray-600 border-4 border-dashed border-green-400 p-12 rounded-xl flex-col flex items-center">
+                        <h1 className="text-6xl font-extrabold text-green-500 drop-shadow-[0_0_10px_rgba(0,255,0,0.7)] animate-pulse tracking-wide">
+                            NEW SHIRTS!
+                        </h1>
+                        <h3 className="text-lg font-medium text-gray-200 mt-2">
+                            Only available for a limited time!
+                        </h3>
+                        <a className="text-lg font-medium text-gray-200 bg-green-500 p-2 rounded-xl mt-6" href="https://staleyrobotics25.itemorder.com/">
+                            Order Now!
+                        </a>
+                    </div>
+                </div>
                 <div
                     className="absolute bottom-28 left-8 z-20 transition-transform duration-300"
                 >

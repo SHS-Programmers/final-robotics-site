@@ -3,7 +3,7 @@ import React from 'react';
 
 const Calendar: React.FC = () => {
     return (
-        <div className="flex flex-col items-center justify-center p-6 min-h-screen bg-gray-900">
+        <div className="flex flex-col items-center justify-center p-6 min-h-screen bg-gray-900 pt-40">
             <div className="bg-gray-800/70 backdrop-blur-md rounded-xl p-6 mb-6 shadow-lg text-center">
                 <h2 className="text-3xl font-bold text-green-500">Calendar</h2>
             </div>

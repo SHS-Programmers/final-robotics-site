@@ -28,7 +28,7 @@ export default function RootLayout({
         <div>
             <Analytics/>
             <NavBar/>
-            <div className={"pt-20"}>
+            <div className={"min-h-screen"}>
             {children}
             </div>
 

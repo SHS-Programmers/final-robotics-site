@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Sponsors = () => {
     return (
-        <div className="flex flex-col items-center p-4">
+        <div className="flex flex-col items-center p-4 pt-40">
             {/* Header Section */}
             <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg w-full max-w-4xl">
                 <h2 className="text-3xl font-bold font-jockey-one">Sponsors</h2>

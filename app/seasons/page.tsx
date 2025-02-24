@@ -23,7 +23,7 @@ const reefScapeImages = [
 
 const Seasons = () => {
     return (
-        <div className="space-y-10">
+        <div className="space-y-10 pt-20">
             {/* ReefScape Section */}
             <div className="center">
                 <div className="frosted-glass p-6">
@@ -128,7 +128,7 @@ const Seasons = () => {
                             2023 Charged Up game
                         </a>{' '}
                         is to score cubes and cones into their
-                        respective grids to support their &#39;community&#39;, the community is an alliance's home base, meaning
+                        respective grids to support their &#39;community&#39;, the community is an alliance&#39;s home base, meaning
                         no bot from another alliance can enter their community. The robots goal is to then dock on
                         charge stations in their community to earn points for their alliance by balancing the
                         station.
