@@ -17,24 +17,24 @@ const Landing: React.FC = () => {
                 style={{backgroundImage: "url('/path-to-bg.jpg')"}}
             >
                 <TitleImage images={images} interval={4000}/>
-                <div
-                    className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:top-52 md:-translate-y-0 z-20">
-                    <div
-                        className="bg-gray-600 border-4 border-dashed border-green-400 p-6 md:p-12 rounded-xl flex flex-col items-center">
-                        <h1 className="text-4xl md:text-6xl font-extrabold text-green-500 drop-shadow-[0_0_10px_rgba(0,255,0,0.7)] animate-pulse tracking-wide">
-                            NEW SHIRTS!
-                        </h1>
-                        <h3 className="text-base md:text-lg font-medium text-gray-200 mt-2">
-                            Only available for a limited time!
-                        </h3>
-                        <a
-                            className="text-base md:text-lg font-medium text-gray-200 bg-green-500 p-2 md:p-4 rounded-xl mt-6"
-                            href="https://staleyrobotics25.itemorder.com/"
-                        >
-                            Order Now!
-                        </a>
-                    </div>
-                </div>
+                {/*<div*/}
+                {/*    className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:top-52 md:-translate-y-0 z-20">*/}
+                {/*    <div*/}
+                {/*        className="bg-gray-600 border-4 border-dashed border-green-400 p-6 md:p-12 rounded-xl flex flex-col items-center">*/}
+                {/*        <h1 className="text-4xl md:text-6xl font-extrabold text-green-500 drop-shadow-[0_0_10px_rgba(0,255,0,0.7)] animate-pulse tracking-wide">*/}
+                {/*            NEW SHIRTS!*/}
+                {/*        </h1>*/}
+                {/*        <h3 className="text-base md:text-lg font-medium text-gray-200 mt-2">*/}
+                {/*            Only available for a limited time!*/}
+                {/*        </h3>*/}
+                {/*        <a*/}
+                {/*            className="text-base md:text-lg font-medium text-gray-200 bg-green-500 p-2 md:p-4 rounded-xl mt-6"*/}
+                {/*            href="https://staleyrobotics25.itemorder.com/"*/}
+                {/*        >*/}
+                {/*            Order Now!*/}
+                {/*        </a>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
                 <div
                     className="absolute bottom-12 left-4 md:bottom-28 md:left-8 z-20 transition-transform duration-300">
                     <div className="frosted-glass p-4 md:p-6 rounded-xl inline-block">

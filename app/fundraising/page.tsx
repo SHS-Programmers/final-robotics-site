@@ -45,23 +45,23 @@ import React from "react";
                                     </li>
                                 </ul>
                             </div>
-                            <div className="bg-gray-800 bg-opacity-80 p-8 rounded-lg shadow-lg max-w-lg w-full flex flex-col items-center order-1 md:order-2">
-                                <h1 className="text-6xl font-extrabold text-green-500 drop-shadow-[0_0_10px_rgba(0,255,0,0.7)] animate-pulse tracking-wide">
-                                    NEW SHIRTS!
-                                </h1>
-                                <h3 className="text-lg font-medium text-gray-200 mt-2">
-                                    Only available for a limited time!
-                                </h3>
-                                <h3 className="text-lg font-medium text-gray-200 mt-2">
-                                    (Closes 03/03/25 at 11:59PM)
-                                </h3>
-                                <a
-                                    className="text-lg font-medium text-gray-200 bg-green-500 p-2 rounded-xl mt-6"
-                                    href="https://staleyrobotics25.itemorder.com/"
-                                >
-                                    Order Now!
-                                </a>
-                            </div>
+                            {/*<div className="bg-gray-800 bg-opacity-80 p-8 rounded-lg shadow-lg max-w-lg w-full flex flex-col items-center order-1 md:order-2">*/}
+                            {/*    <h1 className="text-6xl font-extrabold text-green-500 drop-shadow-[0_0_10px_rgba(0,255,0,0.7)] animate-pulse tracking-wide">*/}
+                            {/*        NEW SHIRTS!*/}
+                            {/*    </h1>*/}
+                            {/*    <h3 className="text-lg font-medium text-gray-200 mt-2">*/}
+                            {/*        Only available for a limited time!*/}
+                            {/*    </h3>*/}
+                            {/*    <h3 className="text-lg font-medium text-gray-200 mt-2">*/}
+                            {/*        (Closes 03/03/25 at 11:59PM)*/}
+                            {/*    </h3>*/}
+                            {/*    <a*/}
+                            {/*        className="text-lg font-medium text-gray-200 bg-green-500 p-2 rounded-xl mt-6"*/}
+                            {/*        href="https://staleyrobotics25.itemorder.com/"*/}
+                            {/*    >*/}
+                            {/*        Order Now!*/}
+                            {/*    </a>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 );

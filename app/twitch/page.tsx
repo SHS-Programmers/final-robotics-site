@@ -9,7 +9,7 @@ export default function Twitch() {
             </Head>
             <iframe
                 title="FRC Broadcast"
-                src="https://player.twitch.tv/?channel=firstinspires9&parent=localhost&parent=www.staleyrobotics.com&muted=true"
+                src="https://player.twitch.tv/?channel=firstinspires6&parent=localhost&parent=www.staleyrobotics.com&muted=true"
                 className="w-full h-full border-0"
                 allowFullScreen={true}
             ></iframe>
