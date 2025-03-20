@@ -5,7 +5,6 @@ import {SpeedInsights} from "@vercel/speed-insights/react";
 import {Analytics} from "@vercel/analytics/react";
 import "./globals.css";
 import {Metadata} from "next";
-
 export const metadata: Metadata = {
     title: "Staley Robotics",
     description: "The official website of Staley Robotics, FRC Team #4959",
@@ -18,7 +17,6 @@ export default function RootLayout({
                                    }: Readonly<{
     children: React.ReactNode;
 }>) {
-
 
     return (
         <html lang="en">
