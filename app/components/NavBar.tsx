@@ -6,7 +6,7 @@ import {usePathname} from "next/navigation";
 import logo from "@/public/Logo24-25.svg";
 
 // Set this to true during competitions, false otherwise
-const SHOW_TWITCH_BUTTON = false;
+const SHOW_TWITCH_BUTTON = true;
 
 const Navbar: React.FC = () => {
     const pathname = usePathname();
