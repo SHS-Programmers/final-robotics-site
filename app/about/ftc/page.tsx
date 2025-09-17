@@ -20,7 +20,7 @@ const FTC: React.FC = () => {
             <h2 className="text-3xl font-bold text-green-500">FTC #26467 Hurricanes</h2>
             <p>
                 New Mark&#39;s freshly established FIRST Tech Challenge team has officially begun their season for the
-                2024-2025 school year! Staley Robotics has dedicated their practice sessions to support and mentor these
+                2025-2026 school year! Staley Robotics has dedicated their practice sessions to support and mentor these
                 aspiring engineers during their competitive journey. The Hurricanes at New Mark are committed to
                 embodying their school&#39;s mission, which is to:
             </p>

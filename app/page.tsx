@@ -3,6 +3,7 @@ import React from "react";
 import TitleImage from "@/app/components/Effects/Slideshow/TitleImage";
 
 const images = [
+    "/slides/Team2526.jpeg",
     "/slides/Team2526.JPG",
     "/slides/countdown.JPG",
     "/slides/Team2324.JPG",

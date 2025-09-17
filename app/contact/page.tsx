@@ -36,12 +36,12 @@ const Contact = () => {
                                 </a>
                             </p>
                             <p className="pl-4">
-                                Aaron Gudde:{" "}
+                                Bradley Anderson:{" "}
                                 <a
-                                    href="mailto:aaron.gudde@nkcschools.org"
+                                    href="mailto:banderson@northlandcaps.org"
                                     className="text-green-400 hover:underline"
                                 >
-                                    aaron.gudde@nkcschools.org
+                                    banderson@northlandcaps.org
                                 </a>
                             </p>
                         </div>
@@ -75,12 +75,21 @@ const Contact = () => {
                         <div>
                             <h3 className="font-semibold">Faculty Advisors:</h3>
                             <p className="pl-4">
-                                Jennifer Clark{" "}
+                                Gracie Miller{" "}
                                 <a
-                                    href="mailto:jennifer.clark@nkcschools.org"
+                                    href="mailto:gracie.miller@nkcschools.org"
                                     className="text-green-400 hover:underline"
                                 >
-                                    jennifer.clark@nkcschools.org
+                                    gracie.miller@nkcschools.org
+                                </a>
+                            </p>
+                            <p className="pl-4">
+                                Zoie Riggs{" "}
+                                <a
+                                    href="mailto:zoie.riggs@nkcschools.org"
+                                    className="text-green-400 hover:underline"
+                                >
+                                    zoie.riggs@nkcschools.org
                                 </a>
                             </p>
                         </div>
