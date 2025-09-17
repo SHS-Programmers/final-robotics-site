@@ -19,7 +19,10 @@ const reefScapeImages = [
     '/ReefScape/DSC_0315.jpg',
     '/ReefScape/DSC_0336.jpg',
     '/ReefScape/DSC_0338.jpg',
+    '/ReefScape/DSC_1756.jpg'
 ];
+
+const rebuiltImages = ['/slides/countdown.JPG',];
 
 const Seasons = () => {
     return (
@@ -27,10 +30,30 @@ const Seasons = () => {
             {/* ReefScape Section */}
             <div className="center">
                 <div className="frosted-glass p-6">
+                    <h2 className="heading left text-2xl font-bold">2026 - Rebuilt</h2>
+                    <h3 className="left text-xl italic">*UPCOMING SEASON*</h3>
+                    <p className="left">
+                        <strong>Robot Name: Undecided</strong>
+                    </p>
+                    <p className="left">
+                        The goal of the{' '}
+                        <a
+                            href="https://www.youtube.com/watch?v=2AEdAID2U2o"
+                            className="text-green-600 underline hover:text-green-800"
+                        >
+                            2026 Rebuilt game
+                        </a>{' '}
+                        has not been released yet. Stay tuned for updates as we prepare for the upcoming season!
+                    </p>
+                </div>
+                <div className="image-slider">
+                    <ImageSlider images={rebuiltImages} interval={4500}/>
+                </div>
+                <div className="frosted-glass p-6">
                     <h2 className="heading left text-2xl font-bold">2025 - ReefScape</h2>
                     <h3 className="left text-xl italic">*CURRENT SEASON*</h3>
                     <p className="left">
-                        <strong>Robot Name: Undecided</strong>
+                        <strong>Robot Name: Shark Bait</strong>
                     </p>
                     <p className="left">
                         The goal of the{' '}
@@ -41,7 +64,8 @@ const Seasons = () => {
                             2025 ReefScape game
                         </a>{' '}
                         is to score coral (large sections of PVC pipe) onto the reef (a large structure in the center
-                        of each alliance&#39;s side of the field). The coral can be scored in various ways, such as placing
+                        of each alliance&#39;s side of the field). The coral can be scored in various ways, such as
+                        placing
                         it on the reef, hanging it on the reef, or stacking it on top of other coral. Also, teams must
                         remove algae (over-sized playground balls) from the reef and place them in the barge (a
                         structure with a net in the center of the field). These algae can be scored either by direct
@@ -50,15 +74,20 @@ const Seasons = () => {
                         the barge&#39;s hanging cages to earn additional points.
                         <br/>
                         <br/>
-                        This year, our team will compete at the Heartland Regional (March 19–22) and the Iowa Regional
-                        (March 26–29). We aim to perform well enough to earn a spot at the FIRST Robotics World
-                        Championship (April 16–19) and receive an invitation to the Mo-Kan State Championship (date
-                        TBD).
+                        This year, our team competed at the Heartland Regional (March 19–22) and the Iowa Regional
+                        (March 26–29). We were able to perform competitively every single match, which was a major goal
+                        for the season. We received an invitation to the Mo-Kan State Championship where we were a part
+                        of the 1rst place winning alliance which is a significant milestone for our team. Our robot
+                        featured a swerve drive system, which allowed us to move in any direction and rotate freely
+                        while doing so. This gave us a significant advantage over other teams, as we were able to
+                        quickly and easily maneuver around the field. Our robot also featured a flywheel and shaft
+                        manipulator tool that allowed us to quickly and efficiently pick up and place coral, as well as
+                        remove algae from the reef.
                     </p>
                 </div>
             </div>
             <div className="image-slider">
-                <ImageSlider images={reefScapeImages} interval={4500} />
+                <ImageSlider images={reefScapeImages} interval={4500}/>
             </div>
 
             {/* Crescendo Section */}
@@ -102,7 +131,7 @@ const Seasons = () => {
                 </div>
             </div>
             <div className="image-slider">
-                <ImageSlider images={shredderImages} interval={4500} />
+                <ImageSlider images={shredderImages} interval={4500}/>
             </div>
 
             {/* Charged Up Section */}
@@ -128,7 +157,8 @@ const Seasons = () => {
                             2023 Charged Up game
                         </a>{' '}
                         is to score cubes and cones into their
-                        respective grids to support their &#39;community&#39;, the community is an alliance&#39;s home base, meaning
+                        respective grids to support their &#39;community&#39;, the community is an alliance&#39;s home
+                        base, meaning
                         no bot from another alliance can enter their community. The robots goal is to then dock on
                         charge stations in their community to earn points for their alliance by balancing the
                         station.
@@ -190,7 +220,7 @@ const Seasons = () => {
                     </p>
                 </div>
             </div>
-           <div className="relative w-full flex justify-center items-center">
+            <div className="relative w-full flex justify-center items-center">
                 <Image
                     src="/Rapid-React.webp"
                     alt="2022 Rapid React Robot & Partial Team Photo"
